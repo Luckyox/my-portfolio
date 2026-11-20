@@ -16,9 +16,9 @@
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -58,6 +58,7 @@ img {
 .wrap {
   width: min(100% - 80px, 1200px);
   margin-inline: auto;
+  border: none;
 }
 
 /* NAVIGATION */
